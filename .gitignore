@@ -74,3 +74,10 @@ Temporary Items
 
 # Unity3D Generated File On Crash Reports
 /UnityProjects/*/sysinfo.txt
+
+/*
+/*/
+
+!.gitignore
+!/Assets/
+!/ProjectSettings/
