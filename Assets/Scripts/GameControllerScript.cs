@@ -50,6 +50,6 @@ public class GameControllerScript : MonoBehaviour
         m_character = Instantiate(m_characterPrefab) as GameObject;
         m_character.GetComponent<CharacterScript>().m_gameController = gameObject;
         m_retryText.SetActive(false);
-        m_scoreText.GetComponent<ScoreScript>().m_score = 0;
+        m_scoreText.GetComponent<ScoreScript>().Reset();
     }
 }

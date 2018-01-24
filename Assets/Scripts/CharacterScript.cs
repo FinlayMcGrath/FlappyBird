@@ -9,7 +9,7 @@ public class CharacterScript : MonoBehaviour
 
     Rigidbody m_rigidbody;
     float m_jumpCooldown, m_jumpDelta, m_startTimer;
-    int m_score;
+    public int m_score;
 
 	// Use this for initialization
 	void Start ()
