@@ -17,6 +17,7 @@ public class DeleterScript : MonoBehaviour
 		
 	}
 
+    //delete any pipes that reach this point
     void OnTriggerEnter(Collider collision)
     {
         if (collision.gameObject.tag == "Pipe" || collision.gameObject.tag == "Pipe Marker")

@@ -17,6 +17,7 @@ public class PipeSpawnerScript : MonoBehaviour
 	// Update is called once per frame
 	void Update ()
     {
+        //create a pair of pipes every 3 seconds and give them a semi random size
 		if (m_spawnTimer >= 3)
         {
             GameObject pipe = Instantiate(m_pipes) as GameObject;
